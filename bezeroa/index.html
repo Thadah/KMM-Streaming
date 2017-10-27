@@ -120,11 +120,13 @@
               </button>
             </span>
             <br/><br/>
-            <div id="swap1">
-               sakatu bideoa kargatzeko...
+           sakatu bideoa kargatzeko...
+            <div id="swap1" style="display: none">
+               <video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd' controls></video>
             </div>
+            <!--
             <script>
-            var newHtml1 = "<video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash2/manifest.mpd' controls></video>";
+            var newHtml1 = "<video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd' controls></video>";
             $("#click1").click(function() {
                 //Get rid of that old HTML content
                 $("#swap1").empty();
@@ -132,6 +134,16 @@
                 //Bring in the new content!
                 $("#swap1").prepend(newHtml1);
             });
+            </script>
+          -->
+            <script>
+              $("#click1").click(function() {
+                if($('#swap1').css('display')=="none") {
+                  $('#swap1').css('display', 'inline');
+                } else {
+                  $('#swap1').css('display', 'none');
+                }
+              });
             </script>
             <br/>
 
@@ -141,11 +153,13 @@
               Sakatu Zuzeneko Streaming Bat Ikusteko
             </button>
             <br/><br/>
-            <div id="swap2">
-               sakatu bideoa kargatzeko...           
+            sakatu bideoa kargatzeko...
+            <div id="swap2" style="display: none">
+               <video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd' controls></video>           
             </div>
+            <!--
             <script>
-            var newHtml2 = "<video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash2/manifest.mpd' controls></video>";
+            var newHtml2 = "<video data-dashjs-player src='https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd' controls></video>";
             $("#click2").click(function() {
                 //Get rid of that old HTML content
                 $("#swap2").empty();
@@ -153,6 +167,16 @@
                 //Bring in the new content!
                 $("#swap2").append(newHtml2);
             });
+            </script>
+          -->
+            <script>
+              $("#click2").click(function() {
+                if($('#swap2').css('display')=="none") {
+                  $('#swap2').css('display', 'inline');
+                } else {
+                  $('#swap2').css('display', 'none');
+                }
+              });
             </script>
             <br/>
 

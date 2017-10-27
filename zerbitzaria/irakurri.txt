@@ -1,0 +1,1 @@
+output.mp4 fitxategi bat jarri karpeta honetan eta erabili script-ak (zehazki mpdsortu.sh) manifestu fitxategiak sortzeko

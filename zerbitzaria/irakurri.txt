@@ -1,1 +1,1 @@
-output.mp4 fitxategi bat jarri karpeta honetan eta erabili script-ak (zehazki mpdsortu.sh) manifestu fitxategiak sortzeko
+output.mp4 fitxategi bat jarri, 1280x720p kalitatea izango duena (hala ez bada emaitza ez da egokia izango) karpeta honetan eta erabili script-ak (zehazki mpdsortu.sh) manifestu fitxategiak sortzeko.

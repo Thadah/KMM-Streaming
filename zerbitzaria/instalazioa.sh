@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y  apache2 ffmpeg nodejs
+sudo apt install -y  apache2 ffmpeg mp4box x264 #aldatzeko
 sudo npm install -g grunt-cli
 sudo apt install -y subversion
 svn co https://svn.code.sf.net/p/gpac/code/trunk/gpac gpac

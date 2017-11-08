@@ -1,1 +1,5 @@
-output.mp4 fitxategi bat jarri, 1280x720p kalitatea izango duena (hala ez bada emaitza ez da egokia izango) karpeta honetan eta erabili script-ak (zehazki mpdsortu.sh) manifestu fitxategiak sortzeko.
+INSTALAZIOA
+dependentziak eta beharrezko programak instalatzeko exekutatu root baimenekin instalazioa.sh
+
+MANIFESTUAREN SORRERA
+input.mp4 fitxategi bat jarri, 1280x720p kalitatea izango duena (hala ez bada emaitza ez da egokia izango) karpeta honetan eta erabili script-ak (zehazki mpdsortu.sh) bideoaren bertsio ezberdinak eta manifestu fitxategia sortzeko.

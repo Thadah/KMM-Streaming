@@ -12,7 +12,9 @@ sudo chmod +x configure
 sudo make
 sudo make install
 sudo cp bin/gcc/libgpac.so /usr/lib
-
+mp4box -version
+cd ..
+sudo rm -r gpac
 echo " "
-echo "Bukatu da instalazioa, egin 'MP4Box -version' ondo instalatu dela segurtatzeko"
+echo "Bukatu da instalazioa"
 exit

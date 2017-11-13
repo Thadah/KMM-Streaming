@@ -1,6 +1,8 @@
 #!/bin/bash
-
-sudo apt install -y  apache2 ffmpeg mp4box x264 #aldatzeko
+echo "Apache, MP4Box eta X264 instalatzen..."
+sudo add-apt-repository ppa:jonathonf/ffmpeg-3 -y
+sudo apt update
+sudo apt install -y --install-recommends apache2 ffmpeg x264 #aldatzeko
 sudo npm install -g grunt-cli
 sudo apt install -y subversion
 svn co https://svn.code.sf.net/p/gpac/code/trunk/gpac gpac

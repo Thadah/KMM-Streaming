@@ -13,5 +13,7 @@ rm intermediate_720.264
 rm intermediate_576.264
 rm intermediate_360.264
 MP4Box -dash 4000 -frag 4000 -rap -profile dashavc265:onDemand -out output_dash.mpd output_1080.mp4#video output_720.mp4#video output_576.mp4#video output_360.mp4#video input.mp4#audio
+rm output_1080.mp4
+rm output_720.mp4
 rm output_576.mp4
 rm output_360.mp4
